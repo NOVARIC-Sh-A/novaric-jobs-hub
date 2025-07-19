@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: NOVARIC global design tokens */
+:root {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  @apply text-novaric-blue font-medium hover:text-novaric-red underline-offset-2 transition-colors duration-300;
+}
+
+button {
+  @apply rounded-md px-4 py-2 font-semibold text-white bg-novaric-red hover:bg-novaric-blue transition-colors duration-300;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sq">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg viewBox='0 0 225 174' xmlns='http://www.w3.org/2000/svg' aria-label='NOVARIC Logo'%3E%3Cg transform='translate(10,0)'%3E%3Cpolygon points='100,0 200,43.5 200,130.5 100,174 0,130.5 0,43.5' fill='%2300AEEF'/%3E%3Cpolygon points='100,3 197,45.5 197,128.5 100,171 3,128.5 3,45.5' fill='%238B2526'/%3E%3Ctext x='100' y='100' font-size='48' font-weight='normal' fill='white' text-anchor='middle' font-family='sans-serif' dy='.3em'%3ENOVARIC%3C/text%3E%3Ctext x='200' y='30' font-size='16' font-weight='normal' fill='black' font-family='sans-serif'%3E®%3C/text%3E%3C/g%3E%3C/svg%3E" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOVARIC® - Partneri Juaj për Talentin</title>
+
+  <!-- SEO & Social Media Meta Tags -->
+  <meta name="description"
+    content="NOVARIC® është partneri juaj për talentin. Ne lidhim profesionistët me mundësi kuptimplota dhe ndihmojmë organizatat të gjejnë talentin që u nevojitet për sukses." />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jobs-hub.novaric.al/">
+  <meta property="og:title" content="NOVARIC® - Partneri Juaj për Talentin">
+  <meta property="og:description"
+    content="NOVARIC® është partneri juaj për talentin. Ne lidhim profesionistët me mundësi kuptimplota dhe ndihmojmë organizatat të gjejnë talentin që u nevojitet për sukses.">
+  <meta property="og:image" content="https://i.imgur.com/gY9kS58.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://jobs-hub.novaric.al/">
+  <meta property="twitter:title" content="NOVARIC® - Partneri Juaj për Talentin">
+  <meta property="twitter:description"
+    content="NOVARIC® është partneri juaj për talentin. Ne lidhim profesionistët me mundësi kuptimplota dhe ndihmojmë organizatat të gjejnë talentin që u nevojitet për sukses.">
+  <meta property="twitter:image" content="https://i.imgur.com/gY9kS58.png">
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'novaric-red': '#8B2526',
+            'novaric-blue': '#00AEEF',
+            'novaric-dark-blue': '#19213E',
+          },
+          fontFamily: {
+            sans: ['Helvetica', 'Arial', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .animate-fade-in {
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    sup {
+      font-size: 60%;
+    }
+  </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.10.0"
+  }
+}
+</script>
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "NOVARIC®",
+    "url": "https://jobs-hub.novaric.al/",
+    "logo": "https://i.imgur.com/gY9kS58.png",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+355-222-55-999",
+        "contactType": "customer service"
+    },
+    "sameAs": []
+}
+</script>
+</head>
+
+<body class="bg-slate-100 dark:bg-slate-900">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
